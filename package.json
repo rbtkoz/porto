@@ -1,0 +1,42 @@
+{
+  "name": "ht_msw_client",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:mnv_tech/ht_msw_client.git"
+  },
+  "homepage": "https://bitbucket.org/mnv_tech/ht_msw_client",
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "css-loader": "^0.25.0",
+    "eslint": "^3.8.1",
+    "eslint-plugin-react": "^6.4.1",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.22.0",
+    "postcss-cssnext": "^2.8.0",
+    "postcss-import": "^8.1.2",
+    "postcss-loader": "^0.13.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.2",
+    "webpack-combine-loaders": "^2.0.0",
+    "webpack-dev-server": "^1.16.1",
+    "webpack-validator": "^2.2.8"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "office-ui-fabric-react": "^0.55.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-hot-loader": "^3.0.0-beta.5",
+    "whatwg-fetch": "^1.0.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js",
+    "build": "webpack"
+  }
+}

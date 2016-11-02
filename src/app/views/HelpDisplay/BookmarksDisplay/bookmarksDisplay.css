@@ -1,0 +1,67 @@
+@import '../../../styles/variables.css';
+@import '../../../styles/fabric.css';
+
+.container {
+  padding-bottom: 1px;
+  width: 100%;
+  font-family: HelveticaNeueW02-55Roma, Helvetica, Helvetica, Arial, sans-serif;
+  font-weight: 200;
+}
+
+.section {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items:center;
+  height: 50px;
+  background-color: var(--sectionGrey);
+  color: var(--exLightGrey);
+  -webkit-box-shadow: var(--shadowLv1);
+  -moz-box-shadow: var(--shadowLv1);
+  box-shadow: var(--shadowLv1);
+  cursor: pointer;
+}
+
+.title {
+  padding-left: 8px;
+  font-size: 1.2em;
+  font-weight: lighter;
+  flex-grow: 2;
+
+}
+.chevron {
+  padding-right: 40px;
+  color: var(--exLightGrey);
+  font-size: 1em;
+}
+
+.bookmark-icon{
+  font-weight: 600;
+  padding-left:20px;
+  color: var(--exLightGrey);
+  font-size:1.2em;
+}
+
+.item {
+  width: 100%;
+  padding: 0 20px;
+  line-height: 1.5em;
+  font-size: 1.1em;
+  font-weight: lighter;
+  color: var(--trendingBlue);
+}
+
+.item:hover {
+  background-color: var(--lightGrey);
+}
+
+.bookmark-container {
+  padding: 20px;
+  font-family: HelveticaNeueW02-55Roma, Helvetica, Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  cursor: pointer;
+
+}
+
+
+
+

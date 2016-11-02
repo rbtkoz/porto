@@ -1,0 +1,40 @@
+@import '../../../styles/variables.css';
+@import '../../../styles/fabric.css';
+
+.container {
+  z-index: 1;
+  position: absolute;
+  margin-top: -28px;
+  margin-left: 20px;
+  background-color: var(--backgroundGrey);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  font-family: HelveticaNeueW02-55Roma, Helvetica, Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  -webkit-box-shadow: var(--shadowLv1);
+  -moz-box-shadow: var(--shadowLv1);
+  box-shadow: var(--shadowLv1)
+
+}
+
+.item-list {
+  background-color:var(--exLightGrey);
+
+}
+
+.item {
+  padding: 0 12px;
+  width:100%;
+  overflow:hidden;
+  font-weight: 500;
+  line-height:1.6em;
+  color: var(--darkGrey);
+  font-size:1em;
+}
+.item:hover {
+  background-color: var(--lightGrey);
+  cursor:pointer;
+}
+

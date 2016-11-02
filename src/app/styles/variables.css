@@ -1,0 +1,35 @@
+:root {
+  --menuGrey: #272727;    /* Menu background */
+  --darkGrey: #333333;    /* Press state, primary font */
+  --comGrey: #cdcdcd;     /* Divider lines, container outlines, text field outlines */
+  --lightGrey: #e5e5e5;   /* Inactive, text on dark background */
+  --bkGrey: #f8f8f8;      /* Default Background */
+  --exLightGrey: #ffffff; /* Content background, text on dark background */
+  --medGrey: #ccc;
+  --borderGrey: #C8C8C8;
+  --activeGrey: #545454;
+  --sectionGrey: #686868;
+  --backgroundGrey:#f3f3f3;
+  --bookmarkRed: #EF5656;
+  --countOrange: #ff8a57;
+
+/* BRAND COLORS */
+  --bbBlue: #005D84;
+  --bbPurple: #c56fd5;      /* Active/selected button states, text links, course color */
+  --bbBrightBlue: #26d7fd;  /* Course color */
+  --bbRedOrange: #ff6600;   /* Course color, FTUE, warning background */
+  --bbYellow: #ffe300;      /* Course color */
+  --bbDarkBlue: #2075a3;
+  --trendingBlue: #008DC9;
+  /* (Primarily a web color) Web text links, course color */
+
+/* ERROR COLORS */
+  --errorRed: #FF3B30;
+
+/*SHADOWS MATERIAL */
+  --shadowLv1: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  --shadowLv2: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+
+
