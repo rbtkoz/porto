@@ -1,8 +1,0 @@
-@import '../../styles/variables.css';
-@import '../../styles/fabric.css';
-
-
-.help-search-display-container {
-  height: 100%;
-  background-color: var(--backgroundGrey);
-}

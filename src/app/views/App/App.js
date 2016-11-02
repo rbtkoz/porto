@@ -1,18 +1,17 @@
 import React from 'react';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import RaisedButton from 'material-ui/RaisedButton';
-import Name from '/Name';
+import Name from '../Name/Name';
+import Email from '../Email/Email';
+import Line from '../Line/Line';
 
-
-
+import alexpic from '../../assets/alex.jpg';
 const App = () => {
-
-
   return (
     <MuiThemeProvider>
       <div className="alex-port-app">
-        <RaisedButton label="Default" />
-      <h2>Alex Kozovski</h2>
+        <Name />
+        <Line />
+        <Email />
       </div>
     </MuiThemeProvider>
   );

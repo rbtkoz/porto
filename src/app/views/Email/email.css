@@ -1,0 +1,38 @@
+@import '../../styles/variables.css';
+
+.container{
+  margin-left:40px;
+  width: 100%;
+  padding-left:20px;
+  flex-grow: 1;
+
+
+}
+.myemail {
+
+  font-size: 5em;
+  color: var(--medGrey);
+  font-weight:bold;
+}
+
+.myemail a {
+  text-decoration: none;
+  color: var(--trendingBlue);
+}
+
+@media only screen and (max-width: 768px) {
+
+  .container{
+    padding-top:20px;
+    padding-left:0;
+    margin-left:0;
+    float:left;
+  }
+
+  .myemail {
+    font-size: 2em;
+
+
+  }
+
+}

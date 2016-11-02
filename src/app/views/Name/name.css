@@ -1,0 +1,21 @@
+@import '../../styles/variables.css';
+
+.myname {
+  color: var(--darkGrey);
+  flex-grow: 1;
+  font-weight:bold;
+padding-right:20px;
+  font-size: 4em;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .myname {
+  font-size: 3em;
+
+
+  }
+
+}
+
+

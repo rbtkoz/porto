@@ -1,0 +1,22 @@
+@import '../../styles/variables.css';
+
+
+.myline {
+  flex-grow: 1;
+
+  height:599px;
+  border-left:4px solid var(--menuGrey);
+}
+
+@media only screen and (max-width: 768px) {
+
+  .myline {
+    width:768px;
+    height:4px;
+    border-left:none;
+    border-bottom:4px solid;
+
+
+  }
+
+}
