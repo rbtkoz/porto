@@ -1,11 +1,9 @@
 {
   "name": "alex-porto",
   "version": "1.0.0",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/rbtkoz/porto.git"
-  },
+  "repository": "",
   "homepage": "https://github.com/rbtkoz/porto",
+
   "devDependencies": {
     "babel-core": "^6.17.0",
     "babel-loader": "^6.2.5",
@@ -59,3 +57,5 @@
     "build": "webpack"
   }
 }
+
+
