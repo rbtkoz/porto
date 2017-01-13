@@ -1,0 +1,26 @@
+@import '../../styles/variables.css';
+
+.container{
+  padding-top: 40px;
+  flex: 100%;
+
+}
+.greeting {
+
+  font-size: 1.6em;
+  color: #4A4A4A;
+  font-weight:100;
+  text-align:center;
+}
+
+@media only screen and (max-width: 768px) {
+
+
+
+  .greeting {
+    font-size: 0.8em;
+
+
+  }
+
+}

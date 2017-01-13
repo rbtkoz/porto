@@ -1,0 +1,66 @@
+@import '../../styles/variables.css';
+
+.container{
+  margin-top:40px;
+}
+
+.red{
+  background-color:#F6A623;
+  margin:20px;
+  width: 400px;
+  height:400px;
+  border-radius:2px;
+  -webkit-box-shadow: var(--shadowLv1) ;
+  -moz-box-shadow: var(--shadowLv1);
+  box-shadow: var(--shadowLv1);
+}
+
+.blue{
+  background-color:#50E3C2;
+  margin:20px;
+
+  width: 400px;
+  height:400px;
+  border-radius:2px;
+  -webkit-box-shadow: var(--shadowLv1) ;
+  -moz-box-shadow: var(--shadowLv1);
+  box-shadow: var(--shadowLv1);
+
+}
+
+.green{
+  background-color:#4990E2;
+  margin:20px;
+
+  width: 400px;
+  height:400px;
+  border-radius:2px;
+  -webkit-box-shadow: var(--shadowLv1) ;
+  -moz-box-shadow: var(--shadowLv1);
+  box-shadow: var(--shadowLv1);
+
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+  .myline {
+    border-left:none;
+    border-bottom:1px solid;
+    color: rgba(125,125,125, 0.3);
+
+  }
+
+  .verticaltext {
+    font-size: 2em;
+  }
+
+  .green, .red, .blue{
+
+    height: 300px;
+    width:300px;
+  }
+
+}

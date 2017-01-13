@@ -14,6 +14,9 @@ render (
   document.getElementById('root-entry')
 );
 
+
+
+
 // Handle hot reloading requests from Webpack
 if (module.hot) {
   module.hot.accept('./views/App/App', () => {
