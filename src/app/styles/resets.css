@@ -4,12 +4,16 @@
   box-sizing: border-box;
 }
 
+
+
+
 html, body, #root-entry {
   width: 100%;
   margin: 0;
   padding: 20px;
   flex-flow: row nowrap;
-  background-color:#f3f3f3;
+  background-color:#f3f3f3 !important;
+  border:none
 
 
 }
@@ -27,8 +31,14 @@ html, body, #root-entry {
   display: flex;
   flex-flow: row nowrap;
   align-items:center;
+  background-color:#f3f3f3;
 
 }
+.alex-port-app iframe html body{
+  background:green !important;
+}
+
+
 
 ul {
   margin: 0;
@@ -46,6 +56,7 @@ ul {
     height: 100%;
     display: flex;
     flex-flow: row wrap;
+    background-color:#f3f3f3;
 
   }
 
